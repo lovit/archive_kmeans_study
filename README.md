@@ -1,4 +1,6 @@
-# Clustering ensemble 
+# Soykmeans
+
+kmeans optimization, variants, and ensembles
 
 ## Requires
 

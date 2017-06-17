@@ -1,4 +1,4 @@
-__title__ = 'clusteringensemble'
+__title__ = 'soykmeans'
 __version__ = '0.0.01'
 __author__ = 'Lovit'
 __license__ = 'GPL v3'
