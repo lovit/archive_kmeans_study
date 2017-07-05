@@ -41,7 +41,7 @@ class KMeansEnsemble:
                 data.append(v)
         
         x_final = csr_matrix((data, (rows, cols)))
-        x_final = normalize(x_final, axis=1, norm='l2')                
+        #x_final = normalize(x_final, axis=1, norm='l2')
         self.x_final = x_final
         
         history, yours = single_linkage(x_final, n_final_clusters)
